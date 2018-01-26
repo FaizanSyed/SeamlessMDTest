@@ -1,0 +1,6 @@
+/* Remove bullet to make room for hyphen*/
+#conds {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

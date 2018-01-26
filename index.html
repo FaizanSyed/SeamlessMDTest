@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SeamlessMD Patient</title>
+	<link rel="stylesheet" type="text/css" href="seamlessMD-patient.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+	
+<style>
+</style>
+
+<body>
+	<section>
+	<form>
+		<div>Name of patient: <span id="name"></span></div>
+		<div>Organization name: <span id="orgName"></span></div>
+		<div>Gender: <span id="gender"></span></div>
+		<div>Number of conditions they have: <span id="numConds"></span></div>
+		<div>List of all conditions: </div><ul id="conds"></ul>
+	</form>
+		<button id="startButton" onclick="getInfo()"> Load Patient Info </span> 
+	</section>
+
+</body>
+
+<script type="text/javascript" src="seamlessMD-patient.js"></script>
+<script type="text/javascript" src="data.js"></script>
+
+</html>
